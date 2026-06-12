@@ -22,6 +22,7 @@ body {
    box-shadow: 0px 4px 10px black;
    transition: 0.2s;
    flex: 1;
+   padding: 20px;
 }
 
 .card:hover { /* ===При наведении===*/
@@ -60,3 +61,18 @@ nav a{
 nav a:hover {
    color: aqua;
 }
+
+@media (max-width: 768px) {
+   .tours {
+      flex-direction: column;
+      gap: 30px;
+      padding: 15px;
+   } 
+   h1 {
+      font-size: 1.5rem;  
+   }
+   body {
+      padding: 0px 20px;
+   }
+}
+
