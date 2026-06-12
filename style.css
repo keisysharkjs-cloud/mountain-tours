@@ -64,7 +64,7 @@ nav a:hover {
    color: rgba(255, 255, 255, 0.801);
 }
 
-/* Тех. Поддержка */
+/* Форма обращения */
 .form-div {
    margin-bottom: 10px;
 }
@@ -72,11 +72,13 @@ nav a:hover {
 input {
    border: none;
    border-radius: 3px;
+   padding: 8px 12px;
 }
 
 .submit {
    border: none;
    border-radius: 5px;
+   padding: 8px 12px;
 }
 
 .submit:hover {
