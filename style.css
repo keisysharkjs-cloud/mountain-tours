@@ -13,7 +13,7 @@ body {
 }
 
 .burger {
-   display: block;
+   display: flex;
    justify-content: space-between;
    width: 42px;
    height: 24px;
@@ -40,8 +40,15 @@ body {
    background: black;
 }
 
-.show li{
-   line-height: 0.61;
+.show {
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   line-height: 1.2;
+}
+
+.show.active {
+   display: flex;
 }
 
 .tours {
@@ -156,8 +163,9 @@ input {
    .show {
       display: none;
       flex-direction: column;
-      gap: 10px;
-      padding: 20px;
+      gap: 30px;
+      padding: 40px;
+      margin: 40px;
    }
 
    .show.active {
