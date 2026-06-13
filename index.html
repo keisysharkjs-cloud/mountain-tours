@@ -1,64 +1,70 @@
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <header>
-         <span class="logo">Mountain Tours</span>
-         <ul>
-            <li>Главная</li>
-            <li>Туры</li>
-            <li>Контакты</li>
-         </ul>
-      </header>
-      <section class="hero">
-         <h1> Твоё путешествие начинается здесь!</h1>
-         <button class="button"> Выбрать туры </button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+      <span class="logo">Mountain Tours</span>
+      <button class="burger">
+         <span></span>
+         <span></span>
+         <span></span>
+      </button>
+      <ul class="show">
+         <li>Главная</li>
+         <li>Туры</li>
+         <li>Контакты</li>
+      </ul>
+   </header>
+   <section class="hero">
+      <h1> Твоё путешествие начинается здесь!</h1>
+      <button class="button"> Выбрать туры </button>
+   </section>
+      <section class="tours">
+      <div class="card">   
+            <div class="card-image"></div>
+            <h3>Алтай</h3>
+            <p>Алтайские края по своему красивы, и вы можете узнать о них, купив  билеты</p>
+         </div>
+         
+         <div class="card">
+            <div class="card-image"></div>
+            <h3>Кавказ</h3>
+            <p>Кавказские горы красивы собою, а традиции и народ - чудо</p>
+         </div>
+         
+         <div class="card">
+            <div class="card-image"></div>
+            <h3>Камчатка</h3>
+            <p>Хз что написать</p>
+         </div>
       </section>
-         <section class="tours">
-         <div class="card">   
-               <div class="card-image"></div>
-               <h3>Алтай</h3>
-               <p>Алтайские края по своему красивы, и вы можете узнать о них, купив  билеты</p>
+      <section class="form-section">
+         <h4>Есть вопросы? Свяжитесь с нами, мы всегда рады вам помочь!</h4>
+         <form>
+            <div class="form-div">
+               <label for="name">Имя</label>
+               <input type="text" id="name" placeholder="Ваше имя">
             </div>
-            
-            <div class="card">
-               <div class="card-image"></div>
-               <h3>Кавказ</h3>
-               <p>Кавказские горы красивы собою, а традиции и народ - чудо</p>
+            <div class="form-div">
+               <label for="email">Почта</label>
+               <input type="email" id="email" placeholder="example@email.ru">
             </div>
-            
-            <div class="card">
-               <div class="card-image"></div>
-               <h3>Камчатка</h3>
-               <p>Хз что написать</p>
-            </div>
-         </section>
-         <section class="form-section">
-            <h4>Есть вопросы? Свяжитесь с нами, мы всегда рады вам помочь!</h4>
-            <form>
-               <div class="form-div">
-                  <label for="name">Имя</label>
-                  <input type="text" id="name" placeholder="Ваше имя">
-               </div>
-               <div class="form-div">
-                  <label for="email">Почта</label>
-                  <input type="email" id="email" placeholder="example@email.ru">
-               </div>
-               <button type="submit" class="submit">Отправить</button>
-            </form>
-         </section>
-         <footer>
-            <p>© 2025 MountainTours</p>
-            <nav> 
-               <a href="#">VK</a>
-               <a href="#">Telegram</a>
-               <a href="#">Youtube</a>
-            </nav>
-         </footer>
-      </body>
-      </html>  
+            <button type="submit" class="submit">Отправить</button>
+         </form>
+      </section>
+      <footer>
+         <p>© 2025 MountainTours</p>
+         <nav> 
+            <a href="#">VK</a>
+            <a href="#">Telegram</a>
+            <a href="#">Youtube</a>
+         </nav>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+   </html>  
